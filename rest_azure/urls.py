@@ -12,6 +12,7 @@ router.register(r'groups', views.GroupViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
+    path('rest_app/', include('rest_app.urls')),
 
     # Autenticação
     re_path(r'^o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
