@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+#title{
+    color: brown;
+}
+#subtitle{
+    color: yellow;
+}
+#alert{
+    color: aqua;
+}
